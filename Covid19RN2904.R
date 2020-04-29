@@ -55,7 +55,7 @@ dados %>%
   geom_line(aes(y = obitosAcumulados, group="",colour = "Casos Acumulados"))+
   geom_point(aes(y = obitosAcumulados, group="",colour = "Casos Acumulados"))+
   geom_point()+geom_line()+
-  scale_color_manual(labels = c("Casos confirmados", "Óbitos"),values=c("red", "blue"))+
+  scale_color_manual(labels = c("Óbitos","Casos confirmados"),values=c("red", "blue"))+
   labs(x = "Data", y = "Quantidade", colour = "",
        caption="Fonte: Ministério da Saúde    Autor: Thiago Valentim",
        title="Figura 1: Acumulado dos casos confirmados e óbitos por Covid-19 no RN") +
@@ -77,7 +77,7 @@ dados %>%
   geom_line(aes(y = obitosNovos, group="",colour = "Casos Acumulados"))+
   geom_point(aes(y = obitosNovos, group="",colour = "Casos Acumulados"))+
   geom_point()+geom_line()+
-  scale_color_manual(labels = c("Casos confirmados", "Óbitos"),values=c("red", "blue"))+
+  scale_color_manual(labels = c("Óbitos","Casos confirmados"),values=c("red", "blue"))+
   labs(x = "Data", y = "Quantidade", colour = "",
        caption="Fonte: Ministério da Saúde    Autor: Thiago Valentim",
        title="Figura 2: Casos confirmados e óbitos diários por Covid-19 no RN") +
