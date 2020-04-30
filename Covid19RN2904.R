@@ -65,7 +65,7 @@ dados %>%
         axis.title.y = element_text(margin = margin(r = 15)),
         axis.title.x = element_text(margin = margin(t = 10)))+
   annotate("text",x=2,y=790,hjust=0,vjust=0,
-           label=paste("Letalidade =","14%"),colour="red",size=4.5)
+           label=paste("Letalidade =","5,6%"),colour="red",size=4.5)
 
 ########################### GRÁFICO 2
 
